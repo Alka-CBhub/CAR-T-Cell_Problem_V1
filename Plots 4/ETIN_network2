@@ -1,0 +1,25 @@
+digraph {
+	dpi=100
+	rankdir=LR ratio=compress size="10,10"
+	nodesep=0.5 ranksep=0.5
+	node [color=black fillcolor=lightgoldenrodyellow fontname=Helvetica fontsize=10 shape=circle style="filled,setlinewidth(2)"]
+	edge [fontname=Helvetica fontsize=10 penwidth=2]
+	E
+	T
+	I
+	N
+	E -> E [label=" " arrowhead=tee color=red]
+	T -> E [label=" " arrowhead=normal color=blue]
+	I -> E [label=" " arrowhead=tee color=red]
+	N -> E [label=" " arrowhead=tee color=red]
+	E -> T [label=" " arrowhead=tee color=red]
+	T -> T [label=" " arrowhead=tee color=red]
+	I -> T [label=" " arrowhead=normal color=blue]
+	E -> I [label=" " arrowhead=normal color=blue]
+	T -> I [label=" " arrowhead=tee color=red]
+	I -> I [label=" " arrowhead=tee color=red]
+	N -> I [label=" " arrowhead=tee color=red]
+	T -> N [label=" " arrowhead=tee color=red]
+	I -> N [label=" " arrowhead=tee color=red]
+	N -> N [label=" " arrowhead=tee color=red]
+}
