@@ -38,12 +38,19 @@ conda activate implicit_sindy
 
 This will create and activate the environment with all required packages.
 
+
+---
+
+
 🚀 Running the Code
 After activating the environment, launch Jupyter:
 ```bash
 jupyter notebook
 
 Then open and run any of the notebooks in the repository.
+
+
+---
 
 📦 Dependencies
 This project uses Python 3.10 with the following key packages:
@@ -59,6 +66,9 @@ matplotlib, seaborn, plotly
 graphviz
 
 All dependencies are listed in environment.yml.
+
+---
+
 📬 Contact
 For questions or suggestions, please open an issue on the GitHub repository:
 👉 https://github.com/Alka-CBhub/CAR-T-Cell_Problem_V1
